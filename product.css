@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2em;
+    gap: 2em;
+}
+.first-head{
+    background-image: url(images/bg-img.jpeg);
+    height: 40vh;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.first-head h1{
+    text-align: center;
+    justify-self: center;
+    color: #fff;
+    align-self: center;
+}.opt {
+    display: flex;
+    gap: 1em;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+    
+}
+.opt a{
+    margin-top: 15%;
+    color: #fff;
+}
+.product1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* .product1:hover{
+    cursor: pointer;
+    background-color: #6db784;
+    
+} */
+img{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 20px; 
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.text p{
+    font-size: 18px;
+    font-weight: 400;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    color: #6db784;
+}
+.back{
+    width: 30px;
+    margin-left: 1em;
+    padding: .5rem;
+    background: #6db784;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.icons{
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    padding: 5px;
+    background-color: #6db784;
+}
+.img{
+    position: relative;
+}
+.button{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.price{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #306040;
+}
+button{
+    padding: 5px;
+    background: #6db784;
+    border: none;
+    border-radius: 5px;
+}
+.second-head{
+    margin: 20px 35px 20px 35px;
+    padding: 10px;
+    background: #6db784;
+    color: #fff;
+}
+.second-head ul{
+    display: flex;
+    cursor: pointer;
+    gap: 2em;
+    
+}
+.second-head ul li{
+    list-style: none;
+}
+.second-head ul a{
+    text-decoration: none;
+}
+.second-head ul li:hover{
+    color: black;
+}

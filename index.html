@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav class="navbar">
+            <div class="logo">Prosparr</div>
+            <a href="#" class="toggle-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="content-section">
+            <h1>REVERBB</h1>
+            <p>Spend Well, Look Good</p>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        const toggleBtn = document.getElementsByClassName("toggle-btn")[0]
+        const navmenu = document.getElementsByClassName("nav-menu")[0]
+        toggleBtn.addEventListener("click", () =>{
+            navmenu.classList.toggle("active")
+        })
+    </script>
+
+    <section class="second-page">
+        <h1 class="what-we">WHAT WE OFFER</h1>
+        <div class="last-3">
+            <div class="card cardx">
+                <div class="images">
+                    <img src="images/effective-delivery.webp" alt="">
+                </div>
+                <div class="text">
+                    <h3>Effective delivery</h3>
+                    <p class="exp">We deliver products Nationwide within a short period</p>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="images">
+                   <img src="images/quality-clothes.jpeg" alt="">
+                </div>
+                <div class="text">
+                   <h3>Quality Products</h3>
+                   <p class="exp">We sell quality products to our customers as we want them to feel comfortable when wearing it</p>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="images">
+                   <img src="images/customer sevice.jpeg" alt="">
+                </div>
+                <div class="text">
+                   <h3>24/7 Customer Service</h3>
+                   <p class="exp">Our customer service is open 24/7</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+            <video class="video-bg" autoplay loop muted plays-inline >
+                <source src="5 Second Countdown HD.mp4" type="video/mp4">
+             </video>    
+        <div class="text-box">
+            <h1>Are You Ready To Shop With Us</h1>
+            <a href="#">Start Shopping</a>
+        </div>
+    </div>
+    <section class="testimonial">
+        <h1 class="testspeech">Hear From Our Customers</h1>
+        <div class="remarksec">
+            <div class="remark remark1">
+                <div class="pix">
+                    <img src="images/brosam.jpg" alt="">
+                </div>
+                <div class="speech">
+                    <h3>Samuel Yusuf</h3>
+                    <p class="ex">Reverb gives you the best clothes you can find anywhere</p>
+                </div>
+            </div>
+            <div class="remark remark2">
+                <div class="pix">
+                   <img src="images/jb5.jpg" alt="">
+                </div>
+                <div class="speech">
+                   <h3>Jude Bellingham</h3>
+                   <p class="ex">I ordered from Reverbb and was feeling all jiggy</p>
+                </div>
+            </div>
+            <div class="remark remark3">
+                <div class="pix">
+                   <img src="images/cr7.webp" alt="">
+                </div>
+                <div class="speech">
+                   <h3>Cristiano Ronaldo</h3>
+                   <p class="ex">I just got my first order and I have one word SUIIII!!!!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <span>&#169</span>
+        <p>2023</p>
+        <p>All right reserved Prosper Yusuf</p>
+    </footer>
+</body>
+</html>
